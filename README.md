@@ -8,7 +8,7 @@ This tool allows you to handle bulk assignments of Cerby-managed accounts to use
 - Your Cerby subdomain (e.g `mycompany.cerby.com`, enter `mycompany`)
 - A CSV file with a unique account assignment per row. You will need the following values:
   - Account ID
-  - Principal ID (ID of the user or team/group to assign to)
+  - Principal ID (User or Team ID in Cerby)
   - Principal Type (`team` or `user`)
   - The role to assign (`collaborator`, `manager`, `owner`)
   - **Note**: Use the included `accounts.csv` as an example.
