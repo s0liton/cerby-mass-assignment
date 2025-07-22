@@ -1,0 +1,11 @@
+[project]
+name = "cerby-mass-assignment"
+version = "0.1.0"
+description = "A tool for bulk assigning Cerby-managed accounts to given users or teams via the Cerby API"
+authors = [{name = "Pedro Santos", email= "pedro@cerby.com"}]
+requires-python = ">=3.12"
+dependencies = [
+    "argparse>=1.4.0",
+    "requests>=2.32.4",
+    "rich>=14.0.0",
+]
